@@ -451,13 +451,6 @@ function buildQuiz(area){
             }//end if pictogram
            
 		
-			if(dvc.questionIndex==dvc.config.config.questions.length-1) {
-					$("#submitDiv").empty();
-					setTimeout(function(){
-					d3.select("#submitDiv").text("Of course long-term migrants leave an area as well as enter. In " + dvc.areaName + " " + dvc.areaData[0].Outflow + " long-term migrants left the area during 2014.")},1600);
-			}
-		   
-		
         });//end submit
         		
 		
